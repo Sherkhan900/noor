@@ -82,16 +82,16 @@ logo = """
                                                                                                                                                                               
    \033[1;91m-----------------------------------------------
    \033[1;93mCREATOR:  HAMAYUN
-   \033[1;93mFACEBOOK: HAMAYUN KHAN
-   \033[1;93mWHATSAPP:+923319258250
-   \033[1;93mCITY LIVE:PESHAWAR
+   \033[1;94mFACEBOOK: HAMAYUN KHAN
+   \033[1;95mWHATSAPP:+923319258250
+   \033[1;96mCITY LIVE:PESHAWAR
    \033[1;91m----------------------------------------------- 
-   \033[1;94mVILLAGE  :MATTA MUGHAL
-   \033[1;94mTEAM     :ERROR-404
-   \033[1;91m-----------------------------------------------
+   \033[1;97mVILLAGE  :MATTA MUGHAL
+   \033[1;98mTEAM     :ERROR-404
+   \033[1;99m-----------------------------------------------
    \033[1;91m-----------------------------------------------                           
                  EVERYTHING IS POSSIBLE TO ME
-\033[1;91m-----------------------------------------------
+\033[1;92m-----------------------------------------------
  
 """
  
@@ -691,7 +691,7 @@ def menu_select():
  
 		                                                if 'access_token' in d:
  
-		                                                    print("\x1b[1;97m[HAM = OK] "+uid+" = "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;93m[HAM = OK] "+uid+" = "+pass6+"\x1b[1;0m")
  
 		                                                    ok=open("mzok.txt","a")
  
@@ -725,7 +725,7 @@ def menu_select():
  
 		                                                        if 'access_token' in d:
  
-		                                                            print("\x1b[1;97m[HAM = OK] "+uid+" = "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;92m[HAM = OK] "+uid+" = "+pass7+"\x1b[1;0m")
  
 		                                                            ok=open("mzok.txt","a")
  
